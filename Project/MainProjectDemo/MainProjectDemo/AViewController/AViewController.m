@@ -1,25 +1,26 @@
 //
-//  ViewController.m
+//  AViewController.m
 //  MainProjectDemo
 //
-//  Created by aizexin on 2019/2/20.
+//  Created by aizexin on 2019/2/21.
 //  Copyright © 2019 master. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "AViewController.h"
-@interface ViewController ()
+#import "BViewController.h"
+
+@interface AViewController ()
 
 @end
 
-@implementation ViewController
+@implementation AViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     UIButton *button = [UIButton buttonWithType:(UIButtonTypeCustom)];
     button.center    = self.view.center;
-    [button setTitle:@"push A view controller" forState:UIControlStateNormal];
+    [button setTitle:@"push B view controller" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [button addTarget:self action:@selector(didTappedPushBViewControllerButton:) forControlEvents:UIControlEventTouchUpInside];
     [button sizeToFit];
@@ -27,9 +28,8 @@
 }
 
 - (void)didTappedPushBViewControllerButton:(UIButton*)button {
-    AViewController *bvc = [[AViewController alloc]init];
+    BViewController *bvc = [[BViewController alloc]init];
     [self.navigationController pushViewController:bvc animated:YES];
 }
-
 
 @end

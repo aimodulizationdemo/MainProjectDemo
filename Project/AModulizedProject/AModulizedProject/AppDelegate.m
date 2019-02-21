@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  MainProjectDemo
+//  AModulizedProject
 //
-//  Created by aizexin on 2019/2/20.
+//  Created by aizexin on 2019/2/21.
 //  Copyright © 2019 master. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,12 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    ViewController *vc = [[ViewController alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
-    self.window.rootViewController = nav;
-    self.window.backgroundColor    = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    // Override point for customization after application launch.
     return YES;
 }
 
@@ -64,7 +58,7 @@
     // The persistent container for the application. This implementation creates and returns a container, having loaded the store for the application to it.
     @synchronized (self) {
         if (_persistentContainer == nil) {
-            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"MainProjectDemo"];
+            _persistentContainer = [[NSPersistentContainer alloc] initWithName:@"AModulizedProject"];
             [_persistentContainer loadPersistentStoresWithCompletionHandler:^(NSPersistentStoreDescription *storeDescription, NSError *error) {
                 if (error != nil) {
                     // Replace this implementation with code to handle the error appropriately.
