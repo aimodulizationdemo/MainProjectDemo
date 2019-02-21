@@ -14,6 +14,15 @@
 
 @implementation BViewController
 
+- (instancetype)initWithContentText:(NSString *)contentText
+{
+    self = [super init];
+    if (self) {
+//        self.contentLabel.text = contentText;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

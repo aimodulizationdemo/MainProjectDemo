@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AViewController.h"
+#import <A_Category/CTMediator+A.h>
 @interface ViewController ()
 
 @end
@@ -27,8 +27,8 @@
 }
 
 - (void)didTappedPushBViewControllerButton:(UIButton*)button {
-    AViewController *bvc = [[AViewController alloc]init];
-    [self.navigationController pushViewController:bvc animated:YES];
+    UIViewController *viewController = [[CTMediator sharedInstance] A_aViewController];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 

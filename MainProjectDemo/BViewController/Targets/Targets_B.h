@@ -1,5 +1,5 @@
 //
-//  AViewController.h
+//  Targets_B.h
 //  MainProjectDemo
 //
 //  Created by aizexin on 2019/2/21.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AViewController : UIViewController
-
+@interface Targets_B : NSObject
+- (UIViewController *)Action_viewController:(NSDictionary *)params;
 @end
 
 NS_ASSUME_NONNULL_END
