@@ -16,7 +16,7 @@
 		4505F3DA221D764000BBC28A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505F3D9221D764000BBC28A /* main.m */; };
 		4505F3E4221D764000BBC28A /* MainProjectDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505F3E3221D764000BBC28A /* MainProjectDemoTests.m */; };
 		4505F428221E4B4500BBC28A /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505F427221E4B4500BBC28A /* BViewController.m */; };
-		4505F505221E8AD400BBC28A /* Targets_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505F504221E8AD400BBC28A /* Targets_B.m */; };
+		4505F505221E8AD400BBC28A /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505F504221E8AD400BBC28A /* Target_B.m */; };
 		B2DD30CB9ACDE9488A75ECA9 /* libPods-MainProjectDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E6C94896F6CA00DD23E5EC /* libPods-MainProjectDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +48,8 @@
 		4505F3E5221D764000BBC28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4505F426221E4B4500BBC28A /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		4505F427221E4B4500BBC28A /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
-		4505F503221E8AD400BBC28A /* Targets_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Targets_B.h; sourceTree = "<group>"; };
-		4505F504221E8AD400BBC28A /* Targets_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Targets_B.m; sourceTree = "<group>"; };
+		4505F503221E8AD400BBC28A /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		4505F504221E8AD400BBC28A /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 		81678778C2185C2FA730CEE7 /* Pods-MainProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-MainProjectDemo/Pods-MainProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		92E6C94896F6CA00DD23E5EC /* libPods-MainProjectDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProjectDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -141,8 +141,8 @@
 		4505F502221E8AAF00BBC28A /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				4505F503221E8AD400BBC28A /* Targets_B.h */,
-				4505F504221E8AD400BBC28A /* Targets_B.m */,
+				4505F503221E8AD400BBC28A /* Target_B.h */,
+				4505F504221E8AD400BBC28A /* Target_B.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 				4505F3C9221D763F00BBC28A /* AppDelegate.m in Sources */,
 				4505F3DA221D764000BBC28A /* main.m in Sources */,
 				4505F3D2221D763F00BBC28A /* MainProjectDemo.xcdatamodeld in Sources */,
-				4505F505221E8AD400BBC28A /* Targets_B.m in Sources */,
+				4505F505221E8AD400BBC28A /* Target_B.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

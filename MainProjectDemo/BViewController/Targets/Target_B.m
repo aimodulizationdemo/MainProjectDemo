@@ -6,9 +6,9 @@
 //  Copyright © 2019 master. All rights reserved.
 //
 
-#import "Targets_B.h"
+#import "Target_B.h"
 #import "BViewController.h"
-@implementation Targets_B
+@implementation Target_B
 
 - (UIViewController *)Action_viewController:(NSDictionary *)params
 {
