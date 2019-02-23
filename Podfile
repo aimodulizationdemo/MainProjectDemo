@@ -5,7 +5,7 @@ source 'https://github.com/aimodulizationdemo/PrivatePod.git'
 
 target ‘MainProjectDemo’ do
     inhibit_all_warnings!         #Prohibit all warnings
-#    pod 'A'
+    pod 'A'
     pod 'A_Category'#, :git => 'git@github.com:aimodulizationdemo/A.git', :branch => 'master'
 #    pod 'CTMediator'
 end

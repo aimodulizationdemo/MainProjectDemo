@@ -1,21 +1,30 @@
 PODS:
+  - A (16):
+    - B_Category
   - A_Category (7):
+    - CTMediator
+  - B_Category (4):
     - CTMediator
   - CTMediator (25)
 
 DEPENDENCIES:
+  - A
   - A_Category
 
 SPEC REPOS:
   https://github.com/aimodulizationdemo/PrivatePod.git:
+    - A
     - A_Category
+    - B_Category
   https://github.com/cocoapods/specs.git:
     - CTMediator
 
 SPEC CHECKSUMS:
+  A: 3558fc1e144ef445e78c747a8a66e3f534cacb5b
   A_Category: f93ac798eb9bfed2e016b9c235865fa9562bc5e6
+  B_Category: eb2d79bed014999437f1b61fb92e985a80391366
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
 
-PODFILE CHECKSUM: f4a95e4fa482ca46447cc4e2e2f6a523a51b1de3
+PODFILE CHECKSUM: 9e373656142fcdeee0727cf847e6068f7d3c9fc3
 
 COCOAPODS: 1.6.0

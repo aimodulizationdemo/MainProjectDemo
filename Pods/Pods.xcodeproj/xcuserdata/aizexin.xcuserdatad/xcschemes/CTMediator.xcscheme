@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E6DCBC93ED15C97F6BFCE5C0853DD2AF"
+               BlueprintIdentifier = "EAB52EEBDA0A8A8A1C373EBC4E5DDEC5"
                BlueprintName = "CTMediator"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libCTMediator.a">
